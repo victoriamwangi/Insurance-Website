@@ -131,10 +131,28 @@ color: white;
        flex-direction: row;
        justify-content: space-between;
        width: 80%;
+       height: 50vh;
        align-items: center;
        position: absolute;
+       right: 8%; 
+       padding-top: 5vw;
 }
-.qualities-2 .card svg{
-    fill: none;
+.qualities-2 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qualities-2 .card svg {
+    font-size: 300%;
+    background: none;
+    columns: var(--blue);
+}
+.qualities-2 .card .b-text{
+    font-size: 1.2vw;
+    font-weight: 800;
     
 }
+.qualities-2 .card .p-text{
+    color: #585656;
+}
+
