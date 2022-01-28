@@ -1,5 +1,7 @@
 :root{
     --blue: #23A6F0;
+    --blue2: #fafafa;
+    --grey: #585656;
 }
 body{
     box-sizing: border-box;
@@ -8,7 +10,7 @@ body{
    
 }
 .wrapper{
-     background-color: red;
+     background-color: var(--blue2);
      height: 150vh;
 }
 .showcase{
@@ -91,7 +93,8 @@ color: white;
     width: 30%;
     height: 15vw;
     background-color: white;
-    border: solid black 2px;
+    box-shadow: 0px 0px 4px grey ;
+    
 }
 .qualities .blue {
     background-color: var(--blue);
@@ -153,6 +156,50 @@ color: white;
     
 }
 .qualities-2 .card .p-text{
-    color: #585656;
+    color: var(--grey);
 }
-
+.industry{
+    display: flex;
+    flex-direction: column;
+    height: 300vh; 
+    background-color: var(--blue2);
+    width: 80%;
+    position: relative;
+    left: 12vw;
+}
+.industry .text{
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+.industry .text .bold{
+    font-size: 2vw;
+    font-weight: 800;       
+}
+.industry .text .plain {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: var(--grey);
+}
+.industry .profiles{
+    display: flex;
+    justify-content: space-between;
+    right: 20px;
+    
+}
+.industry .profiles .cards{
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+}
+.partners img{
+    width: 8%;
+    padding-top: 14%;
+}
