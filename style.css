@@ -197,9 +197,42 @@ color: white;
 }
 .partners{
     display: flex;
+    margin-top: 20%;
     justify-content: space-between;
 }
 .partners img{
     width: 8%;
-    padding-top: 14%;
+    flex-direction: row;
+}
+.letter{
+    display: flex;
+    height: 5%;
+    margin-top: 5%;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    background-image: linear-gradient(to right, #004688, #D64E89);
+}
+.letter .text{
+    width: 50%;
+    margin-top:-3%;
+}
+.letter .text p{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.letter .email{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.letter .email textarea{
+    height: 35%;
+    width: 50%;
+    
+}
+.letter .email button {
+    background-color: var(--blue);
+    height: 3vw;
 }
