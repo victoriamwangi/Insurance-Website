@@ -5,10 +5,15 @@ body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+   
+}
+.wrapper{
+     background-color: red;
+     height: 150vh;
 }
 .showcase{
     background-image: url("/images/showcase.png");
-    height: 100vh;
+    height: 123vh;
     background-size: cover;
     opacity: 30px;
     background-repeat: no-repeat;
@@ -44,7 +49,7 @@ body{
 .showcase-text{
     position: relative;
      text-align: center; 
-     padding-top: 10%;
+     padding-top: 3%;
 
 }
 .showcase-text .bold{
@@ -71,4 +76,65 @@ color: white;
     width: 9vw;
     height: 3vw;
     border-radius: 20px
+}
+.qualities{ 
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    width: 80%;
+    align-items: center; 
+    position: absolute;
+    right: 8%;
+    top: 106%;
+}
+.qualities .card{
+    width: 30%;
+    height: 15vw;
+    background-color: white;
+    border: solid black 2px;
+}
+.qualities .blue {
+    background-color: var(--blue);
+}
+.qualities .card .bold {
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+.qualities .card .white {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.qualities .card .text{
+    font-size: 1.2vw;
+}
+.qualities .card .t-white{
+    color: white;
+}
+
+
+.qualities .card svg{
+    font-size: 300%;
+    background: none;    
+    color: #fafafa;
+}
+.qualities .card .svg-black{
+    font-size: 300%;
+    background: none;
+    border: #fafafa;
+    fill: none;
+    color: #fafafa;
+}
+.qualities-2{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 80%;
+       align-items: center;
+       position: absolute;
+}
+.qualities-2 .card svg{
+    fill: none;
+    
 }
