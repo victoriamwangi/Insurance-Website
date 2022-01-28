@@ -1,0 +1,38 @@
+:root{
+    --blue: #23A6F0;
+}
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.showcase{
+    background-image: url("/images/showcase.png");
+    height: 100vh;
+    background-size: cover;
+    opacity: 30px;
+    background-repeat: no-repeat;
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    /* align-items: center; */
+
+}
+.main-nav ul{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    right: 20%;
+    margin-top: 2%;
+    
+    
+}
+.main-nav ul li a{
+    padding: 0 16px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    
+}
