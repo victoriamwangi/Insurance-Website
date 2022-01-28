@@ -34,5 +34,41 @@ body{
     display: inline-block;
     color: white;
     text-decoration: none;
+    font-size: 18px;
     
+}
+ .main-nav ul li span .last {
+    margin-right: 10px;
+    color: red;
+}
+.showcase-text{
+    position: relative;
+     text-align: center; 
+     padding-top: 10%;
+
+}
+.showcase-text .bold{
+    font-size: 4vw;
+    font-weight: 900;
+    color: white;
+   
+}
+.showcase .plain{
+font-size: 2vw;
+font-weight: 400;
+color: white;
+}
+.showcase-btn .quote{
+    color: white;
+    background-color: var(--blue);
+    width: 9vw;
+    height: 3vw;
+    border-radius: 20px
+}
+.showcase-btn .learn-more {
+    color: white;
+    background: none;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 20px
 }
