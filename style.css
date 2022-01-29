@@ -249,11 +249,28 @@ display: flex;
 display:flex;
 flex-direction: column;
 width: 30%;
+border: 2px solid var(--blue);
+background-color: white;
+border-radius: 10px;
 }
+.pricing .c-plain button{
+    background-color: var(--blue);
+    color: white;
+}
+
+
 .pricing .standard{
     display: flex;
     flex-direction: column;
-    width: 30%;
+   width: 30%;
+   border: 2px solid var(--blue);
+   background-color: #252B42;
+   border-radius: 10px;
+   color: white;
+}
+.pricing .standard button {
+     background-color: var(--blue);
+    color: white;
 }
 .radio{
     display: flex;
