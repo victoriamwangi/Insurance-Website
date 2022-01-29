@@ -136,9 +136,10 @@ color: white;
        width: 80%;
        height: 50vh;
        align-items: center;
-       position: absolute;
-       right: 8%; 
+       right: -12%; 
        padding-top: 5vw;
+       background-color: red;
+       position: relative;
 }
 .qualities-2 .card {
     display: flex;
@@ -167,28 +168,28 @@ color: white;
     position: relative;
     left: 12vw;
 }
-.industry .text{
+.industry .text-ind {
     display: flex;
     padding-top: 5%;
     flex-direction: column;
     align-items: center;
 }
-.industry .text .bold{
+.industry .text-ind .bold-ind {
     font-size: 2vw;
     font-weight: 800;       
 }
-.industry .text .plain {
+.industry .text-ind .plain-ind {
     font-size: 1.1vw;
     font-weight: 400;
     color: var(--grey);
 }
-.industry .profiles{
+.industry .profiles-ind {
     display: flex;
     justify-content: space-between;
     right: 20px;
     
 }
-.industry .profiles .cards{
+.industry .profiles-ind .cards-ind{
     width: 33%;
     background-color: white;
     display: flex;
@@ -235,4 +236,27 @@ color: white;
 .letter .email button {
     background-color: var(--blue);
     height: 3vw;
+}
+.pricing{ 
+    display: flex;
+    flex-direction: column; 
+    /* height: 30%; */
+}
+.pricing .cards-pricing{
+display: flex;
+}
+.pricing .c-plain{
+display:flex;
+flex-direction: column;
+width: 30%;
+}
+.pricing .standard{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+
 }
