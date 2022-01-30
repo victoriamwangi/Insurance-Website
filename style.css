@@ -347,3 +347,53 @@ font-size: 2vw;
     
 
 }
+ .map{
+     background-color: #252B42;
+     position: relative;
+     height: 78vh;
+     
+ }
+ .map .branches {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     right: -16%;
+     height: 20vh;
+     padding-top: 10%;
+     position: absolute;
+ }
+ .map .branches .text{
+     width: 50%;
+     color: white;
+ }
+ .h1{
+     font-size: 3vw;
+     font-weight: 800;
+ }
+ .map .branches img{
+     width: 50%;
+ }
+ 
+ .appointment{
+     display: flex;
+     background-color: #fff;
+     height: 60vh;
+     width: 50%;
+     margin-top: 30%;
+     position: absolute;
+     right: 24%;
+ }
+ .appointment img{
+     width: 50%;
+ }
+ .appointment .contact{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+ }
+ .appointment textarea{
+     background: #F9F9F9;
+ }
+
+
+ 
