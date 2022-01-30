@@ -269,10 +269,10 @@ border: 2px solid var(--blue);
 background-color: white;
 border-radius: 10px;
 align-items: center;
-padding: 5% 1% 5% 1%;
+/* padding: 5% 1% 5% 1%; */
 box-sizing: border-box;
-height: 77vh;
-margin-top: 2.5%;
+height: 80vh;
+margin-top: 2.1%;
 
 }
 .pricing .c-plain button{
@@ -280,19 +280,33 @@ margin-top: 2.5%;
     color: white;
     width:  14vw;
         margin-top: 5%;
-        height: 5vw;
+        height: 2.5vw;
         border-radius: 10px;
 }
 .package{
     font-weight: 700;
     font-size: 1.6vw;
 }
-.pricing .standard button{
+.cash{
+    color: var(--blue)
+}
+
+.pricing .one {
+    font-weight: 1000;
+    
+}
+.pricing .two{
+    font-size: 1.8vw;
+}
+.pricing sup~p{
+font-size: 2vw;
+}
+.pricing .standard button {
        background-color: var(--blue);
        color: white;
        width: 14vw;
        margin-top: 5%;
-       height: 5vw;
+       height: 2.5vw;
        border-radius: 10px;
 }
 
@@ -306,7 +320,7 @@ margin-top: 2.5%;
    border-radius: 10px;
    color: white;
    align-items: center;
-    padding: 5% 1% 5% 1%;
+    /* padding: 5% 1% 5% 1%; */
     box-sizing: border-box;
     height: 85vh;
        
@@ -329,6 +343,7 @@ margin-top: 2.5%;
     flex-direction: column;
 }
 .radio input{
-    padding-top: 1vw;
+    margin-top: 1.1vw;
+    
 
 }
