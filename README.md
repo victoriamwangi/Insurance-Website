@@ -2,7 +2,7 @@
 
 ##### By Victoria Mwangi
 
-### It is a description of my resume.
+### I am a full stack developer dedicated to developing web applications with user friendly user interfaces and great functionalities.
 
 ## Table of Content
 
@@ -28,7 +28,7 @@ This requires no installation preliquisites for a user accessing it via the inte
 
 ### Installation Process
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#installation)
 
 ## Technology Used
 
@@ -38,7 +38,7 @@ This requires no installation preliquisites for a user accessing it via the inte
 ## Reference
 
 - Materialize CSS
-  [Go Back to the top](#portfolio)
+  [Go Back to the top](#Insurance-Website)
 
 ## Licence
 
@@ -63,5 +63,5 @@ SOFTWARE.
 
 ## Authors Info
 
-Linked - [Albert Byrone](https://www.linkedin.com/in/albert-byrone-664811144/)
-[Go Back to the top](#portfolio)
+Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/albert-byrone-664811144/)
+[Go Back to the top](#Insurance-Website)
