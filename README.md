@@ -63,5 +63,5 @@ SOFTWARE.
 
 ## Authors Info
 
-Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/albert-byrone-664811144/)
+Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/victoria-mwangi-5bb054203/)
 [Go Back to the top](#Insurance-Website)
