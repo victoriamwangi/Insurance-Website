@@ -2,7 +2,7 @@
 
 ##### By Victoria Mwangi
 
-### It is a description of my resume.
+### I am a full stack developer dedicated to developing web applications with user friendly user interfaces and great functionalities.
 
 ## Table of Content
 
@@ -15,11 +15,11 @@
 
 ## Description
 
-This is an a landing page for an Insurance company. Details in showcased in this website includes the company's partners, location, package price.
+This is an a landing page for an Insurance company. Details in showcased in this website includes the company's partners, location, package prices.
 
 ## Installation
 
-This requires no installation preliquisites for a user accessing it via the internet.
+The website is accessed using a user's preffered browser hence required no installation.
 
 ### Requirements
 
@@ -28,7 +28,7 @@ This requires no installation preliquisites for a user accessing it via the inte
 
 ### Installation Process
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#insurance)
 
 ## Technology Used
 
@@ -63,5 +63,5 @@ SOFTWARE.
 
 ## Authors Info
 
-Linked - [Albert Byrone](https://www.linkedin.com/in/albert-byrone-664811144/)
+Linked - [VICTORIA MWANGI](victoriamwangi/Insurance-Website)
 [Go Back to the top](#portfolio)
