@@ -2,7 +2,7 @@
 
 ##### By Victoria Mwangi
 
-### It is a description of my resume.
+### I am a full stack developer dedicated to developing web applications with user friendly user interfaces and great functionalities.
 
 ## Table of Content
 
@@ -63,5 +63,5 @@ SOFTWARE.
 
 ## Authors Info
 
-Linked - [Albert Byrone](https://www.linkedin.com/in/albert-byrone-664811144/)
+Linked - [VICTORIA MWANGI](https://github.com/victoriamwangi/Insurance-Website)
 [Go Back to the top](#portfolio)
