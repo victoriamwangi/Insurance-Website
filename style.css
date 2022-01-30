@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    background-color: #fafafa;
    
 }
 .wrapper{
@@ -166,7 +167,7 @@ section{
 .industry{
     display: flex;
     flex-direction: column;
-    height: 300vh; 
+    height: 255vh; 
     width: 80%;
     position: relative;
     left: 12vw;
@@ -351,6 +352,7 @@ font-size: 2vw;
      background-color: #252B42;
      position: relative;
      height: 90vh;
+     margin-top: 10vw;
      
  }
  .map .branches {
@@ -377,7 +379,7 @@ font-size: 2vw;
  .appointment{
      display: flex;
      background-color: #fff;
-     height: 72vh;
+     height: 64vh;
      width: 50%;
      margin-top: 30%;
      position: absolute;
@@ -417,6 +419,35 @@ font-size: 2vw;
     height: 3.5vw;
     border-radius: 5px;
 }
+.contact-us{
+    position: absolute;
+    margin-top : 73%;
+    left: 16%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 3vw;
+}
+.contact-us .text{
+    width: 50%;
+}
+.contact-us .text  .c-us-bold{
+    font-size: 1.6vw;
+    font-weight: 900;
+}
+.contact-us .text .c-us-plain {
+    font-size: 1.2vw;
+    color: #5e5b5b;
+}
+.contact-us .contact-btn {
+ width: 50%;
+}
 
-
+   .contact-btn button{
+    background-color: var(--blue);
+    width: 10vw;
+    color: white;  
+    height: 3vw;
+    border-radius: 6px;
+}
  
