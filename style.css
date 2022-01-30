@@ -3,11 +3,16 @@
     --blue2: #fafafa;
     --grey: #585656;
 }
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     background-color: #fafafa;
+    font-family: Mon;
    
 }
 .wrapper{
@@ -450,4 +455,28 @@ font-size: 2vw;
     height: 3vw;
     border-radius: 6px;
 }
- 
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40%;
+    justify-content: space-between;
+    background-color: white;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    padding-top: 0.8vw;
+    color: #252B42;
+
+}
+.q-links{
+    font-size: 1.2vw;
+    font-weight: 800;
+    padding-bottom: 1.2vw;
+    color
+}
+.copyright{
+    left: 3%;
+    position: absolute;
+}
