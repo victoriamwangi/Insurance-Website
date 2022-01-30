@@ -23,8 +23,11 @@ body{
     background-image: url("/images/showcase.png");
     height: 123vh;
     background-size: cover;
-    opacity: 30px;
+    opacity: 0.9;
     background-repeat: no-repeat;
+}
+.logo{
+    margin-left: 10vw;
 }
 .top-nav{
     display: flex;
@@ -38,6 +41,7 @@ body{
     position: absolute;
     right: 20%;
     margin-top: 2%;
+    font-weight: 400;
     
     
 }
@@ -141,14 +145,6 @@ color: white;
 .qualities .card .t-white{
     color: white;
 }
-
-/* .qualities .card .svg-black{
-    font-size: 300%;
-    background: none;
-    border: #fafafa;
-    fill: none;
-    color: #fafafa;
-} */
 .qualities-2{
        display: flex;
        flex-direction: row;
@@ -237,7 +233,8 @@ section{
 }
 .letter .text{
     width: 50%;
-    margin-top:-3%;
+    padding-left: 5vw;
+    height: 8vw;
 }
 .letter .text p{
     color: white;
@@ -251,13 +248,18 @@ section{
     border-radius: 10px;
 }
 .letter .email textarea{
-    height: 35%;
-    width: 50%;
+    height: 2.8w;
+    width: 20vw;
+    border-radius: 5px;
+    padding-top: 1.2vw;
     
 }
 .letter .email button {
     background-color: var(--blue);
-    height: 3vw;
+    height: 4vw;
+    border-radius: 5px;
+    width: 8vw;
+    left: 20px;
 }
 .pricing{ 
     display: flex;
@@ -347,7 +349,6 @@ font-size: 2vw;
 .pricing .standard .checked{
     background: green;
 }
-/* #option-2:checked:checked~.option-2 */
 .pricing .standard .checked:checked:checked~.chec
 {
     border-color: #4AC072;
