@@ -350,7 +350,7 @@ font-size: 2vw;
  .map{
      background-color: #252B42;
      position: relative;
-     height: 78vh;
+     height: 90vh;
      
  }
  .map .branches {
@@ -377,7 +377,7 @@ font-size: 2vw;
  .appointment{
      display: flex;
      background-color: #fff;
-     height: 60vh;
+     height: 72vh;
      width: 50%;
      margin-top: 30%;
      position: absolute;
@@ -392,8 +392,31 @@ font-size: 2vw;
      flex-direction: column;
  }
  .appointment textarea{
-     background: #F9F9F9;
+     background: #fafafa;
+     height: 2.1vw;
+         
  }
+ .p-book{
+     font-size: 1.6vw;
+     font-weight: 900;
+     }
+
+ .contact label{
+     margin-top: 0.9vw;
+     font-weight: 900;
+     
+ }
+ .contact textarea{
+     margin-top: 1.1vw;
+ }
+.app-btn{
+    background-color: var(--blue);
+    color: white;
+    align-content: center;
+    margin-top: 2vw;
+    height: 3.5vw;
+    border-radius: 5px;
+}
 
 
  
