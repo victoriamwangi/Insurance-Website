@@ -12,7 +12,8 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #fafafa;
-    font-family: Mon;
+    font-family: Montserrat;
+    overflow-x:hidden;
    
 }
 .wrapper{
@@ -76,14 +77,16 @@ color: white;
     background-color: var(--blue);
     width: 9vw;
     height: 3vw;
-    border-radius: 20px
+    border-radius: 20px;
+        border: none;
 }
 .showcase-btn .learn-more {
     color: white;
     background: none;
     width: 9vw;
     height: 3vw;
-    border-radius: 20px
+    border-radius: 20px;
+        border: solid 1px;
 }
  .main-nav .login {
      margin-left: 92px;
