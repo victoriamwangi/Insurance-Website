@@ -28,7 +28,11 @@ The website is accessed using a user's preffered browser hence required no insta
 
 ### Installation Process
 
+<<<<<<< HEAD
 [Go Back to the top](#insurance)
+=======
+[Go Back to the top](#installation)
+>>>>>>> d984f078c1bc4433a755b28ec71293c3016805dc
 
 ## Technology Used
 
@@ -38,7 +42,7 @@ The website is accessed using a user's preffered browser hence required no insta
 ## Reference
 
 - Materialize CSS
-  [Go Back to the top](#portfolio)
+  [Go Back to the top](#Insurance-Website)
 
 ## Licence
 
@@ -63,5 +67,10 @@ SOFTWARE.
 
 ## Authors Info
 
+<<<<<<< HEAD
 Linked - [VICTORIA MWANGI](victoriamwangi/Insurance-Website)
 [Go Back to the top](#portfolio)
+=======
+Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/albert-byrone-664811144/)
+[Go Back to the top](#Insurance-Website)
+>>>>>>> d984f078c1bc4433a755b28ec71293c3016805dc
