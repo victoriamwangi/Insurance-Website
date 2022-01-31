@@ -68,9 +68,13 @@ SOFTWARE.
 ## Authors Info
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Linked - [VICTORIA MWANGI](victoriamwangi/Insurance-Website)
 [Go Back to the top](#portfolio)
 =======
 Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/albert-byrone-664811144/)
+=======
+Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/victoria-mwangi-5bb054203/)
+>>>>>>> 1159a93d30b32dfee244ef7d66267942a13f9e10
 [Go Back to the top](#Insurance-Website)
 >>>>>>> d984f078c1bc4433a755b28ec71293c3016805dc
