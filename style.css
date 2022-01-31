@@ -506,12 +506,16 @@ font-size: 2vw;
 
 @media only screen and (max-width: 768px) {
     .showcase{
-background-color: #fff;
-background-image: none;
+/* background-color: #fff; */
+margin-top: 62%;
     }
     .logo{
-        z-index: 999;
-       color: #252B42;
+           z-index: 999;
+           left: 0;
+           color: #252B42;
+           top: 0;
+           margin-top: 2px;
+           position: absolute;
     }
     .nav-menu {
         position: fixed;
