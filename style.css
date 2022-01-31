@@ -2,6 +2,7 @@
     --blue: #23A6F0;
     --blue2: #fafafa;
     --grey: #585656;
+    --dgrey: #252B42;
 }
 @font-face {
     font-family: Montserrat;
@@ -217,6 +218,13 @@ section{
     flex-direction: column;
     align-items: center;
 }
+.stars svg{
+    color: #F3CE3E;
+}
+/* .stars svg:last-child{
+    color: white;
+    background-color: #F3CE3E;
+} */
 .partners{
     display: flex;
     margin-top: 20%;
@@ -230,8 +238,6 @@ section{
     display: flex;
     height: 5%;
     margin-top: 5%;
-    /* flex-direction: row; */
-    /* align-items: center; */
     background-image: linear-gradient(to right, #004688, #D64E89);
 }
 .letter .text{
@@ -294,7 +300,6 @@ border: 2px solid var(--blue);
 background-color: white;
 border-radius: 10px;
 align-items: center;
-/* padding: 5% 1% 5% 1%; */
 box-sizing: border-box;
 height: 80vh;
 margin-top: 2.1%;
@@ -505,37 +510,40 @@ font-size: 2vw;
 
 
 @media only screen and (max-width: 768px) {
-    .showcase{
-/* background-color: #fff; */
-margin-top: 62%;
+    .showcase {
+        margin-top: 62%;
     }
-    .logo{
-           z-index: 999;
-           left: 0;
-           color: #252B42;
-           top: 0;
-           margin-top: 2px;
-           position: absolute;
+
+    .logo {
+        z-index: 999;
+        left: 0;
+        color: #252B42;
+        top: 0;
+        margin-top: 2px;
+        position: absolute;
     }
+
     .nav-menu {
         position: fixed;
         left: -7%;
         top: 5rem;
         height: 40vh;
         flex-direction: column;
-        background-color:white;
+        background-color: white;
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
-            z-index: 999;
-            
+        z-index: 999;
+
     }
-    .main-nav ul li a{
-       color: #252B42;
+
+    .main-nav ul li a {
+        color: #252B42;
     }
+
     .nav-menu.active {
         left: 0;
     }
@@ -548,18 +556,19 @@ margin-top: 62%;
         display: block;
         cursor: pointer;
     }
+
     .main-nav .login {
-         display: none;
+        display: none;
 
     }
 
-    .main-nav ul li:last-child  {
-       display: none;
+    .main-nav ul li:last-child {
+        display: none;
     }
-     .main-nav ul li:nth-child(4) {
-         display: none;
-     }
+
+    .main-nav ul li:nth-child(4) {
+        display: none;
+    }
 
 }
-
 
