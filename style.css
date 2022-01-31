@@ -263,6 +263,7 @@ section{
     border-radius: 5px;
     width: 8vw;
     left: 20px;
+    border: solid 1px;
 }
 .pricing{ 
     display: flex;
@@ -306,6 +307,7 @@ margin-top: 2.1%;
         margin-top: 5%;
         height: 2.5vw;
         border-radius: 10px;
+        border: solid 1px;
 }
 .package{
     font-weight: 700;
@@ -332,6 +334,7 @@ font-size: 2vw;
        margin-top: 5%;
        height: 2.5vw;
        border-radius: 10px;
+       border: solid 1px;
 }
 
 
@@ -360,6 +363,7 @@ font-size: 2vw;
 .pricing .standard button {
      background-color: var(--blue);
     color: white;
+    border: solid 1px;
 }
 .radio{
     display: flex;
@@ -440,6 +444,7 @@ font-size: 2vw;
     margin-top: 2vw;
     height: 3.5vw;
     border-radius: 5px;
+    border: solid 1px;
 }
 .contact-us{
     position: absolute;
@@ -471,6 +476,7 @@ font-size: 2vw;
     color: white;  
     height: 3vw;
     border-radius: 6px;
+    border: solid 1px;
 }
 .footer{
     display: flex;
