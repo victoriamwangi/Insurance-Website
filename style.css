@@ -702,5 +702,13 @@ width: 20%;
     font-size: small ;
 }
 
-
-
+.partners{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+.partners img{
+    margin-top: 10vw;
+    width: 19vw;
+}
