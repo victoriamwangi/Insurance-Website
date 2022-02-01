@@ -466,8 +466,35 @@ font-size: 2vw;
  .appointment textarea{
      background: #fafafa;
      height: 2.1vw;
-         
+      width: 22.5vw;
  }
+ .select {
+     display: grid;
+     grid-template-areas: "select";
+     align-items: center;
+     position: relative;
+     border-radius: 0.25em;
+     padding: 0.25em 0.5em;
+     font-size: 1.25rem;
+     cursor: pointer;
+     height: 2.1vw
+ }
+  .select #standard-select {
+      background-color: #fafafa !important;
+      height: 2.1vw !important;
+      width: 22vw;
+ }
+ .app-btn {
+     background-color: var(--blue);
+     color: white;
+     align-content: center;
+     margin-top: 2vw;
+     height: 3.5vw;
+     border-radius: 5px;
+     border: solid 1px;
+     width: 23vw;
+ }
+
  .p-book{
      font-size: 1.6vw;
      font-weight: 900;
@@ -481,15 +508,7 @@ font-size: 2vw;
  .contact textarea{
      margin-top: 1.1vw;
  }
-.app-btn{
-    background-color: var(--blue);
-    color: white;
-    align-content: center;
-    margin-top: 2vw;
-    height: 3.5vw;
-    border-radius: 5px;
-    border: solid 1px;
-}
+
 .contact-us{
     position: absolute;
     margin-top : 73%;
