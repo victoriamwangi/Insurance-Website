@@ -114,7 +114,7 @@ color: white;
 
 .qualities{ 
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: space-between;
     width: 80%;
     align-items: center; 
@@ -590,11 +590,11 @@ font-size: 2vw;
 }
 
 @media  (max-width: 576px) {
-/* .top-nav{
-    /* position: relative !important ; */
+.top-nav{
+    position: relative !important ;
 
-/* } */
-/* .main-nav{
+}
+ .main-nav{
     position: fixed;
     top: 0;
     right:0;
@@ -643,7 +643,7 @@ font-size: 2vw;
 }
 .showcase{
     width: 20vw;
-} */
+}
 
 body{
     overflow-x: hidden !important;
@@ -681,7 +681,7 @@ display: none;
 }
 .qualities{
     top: 44%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     width: 100%;
     align-content: center;
