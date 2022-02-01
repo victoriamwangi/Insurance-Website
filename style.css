@@ -14,7 +14,7 @@ body{
     margin: 0px;
     background-color: #fafafa;
     font-family: Montserrat;
-    overflow-x:hidden;
+    overflow-x:hidden !important;
    
 }
 .wrapper{
@@ -41,7 +41,7 @@ body{
     list-style-type: none;
     display: flex;
     position: absolute;
-    right: 20%;
+    right: 10%;
     margin-top: 2%;
     font-weight: 400;
     
@@ -55,6 +55,17 @@ body{
     font-size: 18px;
     
 }
+ .main-nav .login {
+     margin-left: 103px;
+
+ }
+
+ .main-nav ul li:last-child {
+     background-color: var(--blue);
+     height: 2vw;
+     border-radius: 5px;
+     align-content: center;
+ }
 .toggle-icon{
     border: none !important;
     background: none;
@@ -95,17 +106,7 @@ color: white;
     border-radius: 20px;
         border: solid 1px;
 }
- .main-nav .login {
-     margin-left: 92px;
-     
- }
 
- .main-nav ul li:last-child {
-     background-color: var(--blue);
-     height: 2vw;
-     border-radius: 5px;
-     align-content: center;
- }
 .qualities{ 
     display: flex;
     /* flex-direction: row; */
@@ -302,8 +303,8 @@ section{
 .pricing{ 
     display: flex;
     flex-direction: column; 
-    /* height: 30%; */
     align-items: center;
+    margin-top: 6vw;
 
 }
 .pricing .text-pricing .bold-pricing{
@@ -421,7 +422,7 @@ font-size: 2vw;
      background-color: #252B42;
      position: relative;
      height: 90vh;
-     margin-top: 10vw;
+     margin-top: 23vw;
      
  }
  .map .branches {
@@ -548,13 +549,16 @@ font-size: 2vw;
 }
 .copyright{
     left: 3%;
-    position: absolute;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    margin:2vw 5vw 2vw 5vw;
 
 }
-.copyright .social-icons .fa{
+.copyright .social-icons .fab{
     color: var(--blue);
+    width: 2vw;
+    margin-left: 2vw;
 }
 
 .min-nav{
@@ -562,11 +566,11 @@ font-size: 2vw;
 }
 
 @media  (max-width: 576px) {
-.top-nav{
+/* .top-nav{
     /* position: relative !important ; */
 
-}
-.main-nav{
+/* } */
+/* .main-nav{
     position: fixed;
     top: 0;
     right:0;
@@ -613,62 +617,90 @@ font-size: 2vw;
 .min-icons .fas{
     padding-right: 12px;
 }
+.showcase{
+    width: 20vw;
+} */
 
+body{
+    overflow-x: hidden !important;
+}
+.min-nav{
+    display: none;
+}
+.main-nav{
+display: none;
+}
+.showcase{
+    width: 100%;
+    background-image: cover;
+    overflow-x: hidden;
+    text-align: center;
 
-    /* .showcase {
-        margin-top: 62%;
-    }
+}
+.showcase-text{
+    align-items: center;
+}
+.showcase-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vw;
+}
+.showcase-btn .quote{
+    width: 25vw;
+    height: 5vw;
+}
+.showcase-btn .learn-more{
+    width: 17vw;
+    height: 5vw;
+    margin-top: 4vw;
+}
+.qualities{
+    top: 44%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+.qualities .card{
+    margin-top: 20px;
+}
+.qualities-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 80vh;
+    background-color: white;
+}
+.wrapper{
+    min-height: 120vh;
+}
+.industry{
+    display: flex;
+    flex-direction: column;
+}
+.profiles-ind{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150vh;
+    align-items: center;
 
-    .logo {
-        z-index: 999;
-        left: 0;
-        color: #252B42;
-        top: 0;
-        margin-top: 2px;
-        position: absolute;
-    }
+}
+.cards-ind{
+    height: 50vh !important;
+    width: 60%;
+    margin-top: 10vw;
+    text-align: center;
+}
+.cards-ind img{
+width: 20%;
+}
+.cards-ind p{
+    font-size: small ;
+}
 
-    .nav-menu {
-        position: fixed;
-        left: -7%;
-        top: 5rem;
-        height: 40vh;
-        flex-direction: column;
-        background-color: white;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-        z-index: 999;
-
-    }
-
-    .main-nav ul li a {
-        color: #252B42;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-menu li {
-        margin: 2.5rem 0;
-    }
-
-    .toggle {
-        display: block;
-        cursor: pointer;
-    }
-
-    .main-nav .login {
-        display: none;
-
-    }
-
- 
-
-    } */
 
 
