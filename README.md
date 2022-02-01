@@ -19,7 +19,7 @@ This is an a landing page for an Insurance company. Details in showcased in this
 
 ## Installation
 
-The website is accessed using a user's preffered browser hence required no installation.
+The website is accessed using a user's preffered browser therefore requires no installation.
 
 ### Requirements
 
@@ -27,12 +27,7 @@ The website is accessed using a user's preffered browser hence required no insta
 - The user also need to have an access to the Internet
 
 ### Installation Process
-
-<<<<<<< HEAD
-[Go Back to the top](#insurance)
-=======
 [Go Back to the top](#installation)
->>>>>>> d984f078c1bc4433a755b28ec71293c3016805dc
 
 ## Technology Used
 
@@ -42,7 +37,7 @@ The website is accessed using a user's preffered browser hence required no insta
 ## Reference
 
 - Materialize CSS
-  [Go Back to the top](#Insurance-Website)
+  [Go Back to the top](#description)
 
 ## Licence
 
@@ -66,15 +61,6 @@ SOFTWARE.
 [Go Back to the top](#portfolio)
 
 ## Authors Info
+-LinkedIn - [VICTORIA MWANGI](https://www.linkedin.com/in/victoria-mwangi-5bb054203/)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Linked - [VICTORIA MWANGI](victoriamwangi/Insurance-Website)
-[Go Back to the top](#portfolio)
-=======
-Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/albert-byrone-664811144/)
-=======
-Linked - [VICTORIA MWANGI](https://www.linkedin.com/in/victoria-mwangi-5bb054203/)
->>>>>>> 1159a93d30b32dfee244ef7d66267942a13f9e10
-[Go Back to the top](#Insurance-Website)
->>>>>>> d984f078c1bc4433a755b28ec71293c3016805dc
+[Go Back to the top](#description)
