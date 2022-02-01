@@ -8,13 +8,18 @@
     font-family: Montserrat;
     src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+html,
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+
 body{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     background-color: #fafafa;
     font-family: Montserrat;
-    overflow-x:hidden !important;
    
 }
 .wrapper{
